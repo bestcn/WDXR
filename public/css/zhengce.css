@@ -1,0 +1,265 @@
+.list_mes a{
+    text-decoration: none;
+}
+.list_mes2 a{
+    text-decoration: none;
+}
+.zc_ban{
+    width: 100%;
+    height: 101px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.zc_ban img{
+    width: 100%;
+    height: 100px;
+}
+.zc_con{
+    margin-top: 19px;
+}
+.zc_left{
+    width: 120px;
+    float: left;
+    background-color: #fff;
+}
+.zc_middle{
+    width: 800px;
+    float: left;
+    margin-right: 10px;
+}
+.zc_right{
+    width: 240px;
+    float: left;
+}
+.over{
+    overflow: hidden;
+}
+.xiaoshi{
+    position: relative;
+}
+.btn-left{
+    position: fixed;
+    left: 150px;
+    top: 50%;
+}
+.btn-right{
+    position: fixed;
+    right: 150px;
+    top: 50%;
+}
+/*内容左部分-导航*/
+.zc_nav{
+    width: 100%;
+    text-align: center;
+}
+.zc_nav a{
+    text-decoration: none;
+}
+.zc_nav .nav_title{
+    width: 100%;
+    border-bottom: 1px solid #877020;
+    background-color: #B29841;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #f9f9f9;
+    font-size: 70px;
+    line-height: 70px;
+    cursor: default;
+}
+.zc_nav .navlist{
+    width: 100%;
+    height: 37px;
+    font-size: 17px;
+    color: #f9f9f9;
+    line-height: 35px;
+    background-color: #B29841;
+    border-top: 1px solid #D9CCA0;
+    border-bottom: 1px solid #877020;
+    cursor: pointer;
+}
+.zc_left .zc_nav .act{
+    background-color: #776010;
+}
+.zc_nav .hov{
+    background-color: #9A812D;
+}
+.zc_nav .navcolor{
+    border-top: 1px solid #D9CCA0;
+    width: 100%;
+    height: 570px;
+    background-image:linear-gradient(to bottom, #B29841,#fff);
+}
+
+/*内容中部分-轮播图*/
+.zc_slide{
+    width: 100%;
+    height: 300px;
+}
+.zc_news{
+    padding: 7px 41px 47px 20px;
+    width: 100%;
+}
+.news_title{
+    margin-bottom: 40px;
+}
+.news_title span{
+    line-height: 45px;
+    border-bottom: 3px solid #0075C2;
+    color: #000;
+    font-size: 21px;
+    display: inline-block;
+    font-weight: lighter;
+    font-family: "Helvetica Neue";
+}
+.list_group{
+    width: 100%;
+    margin-bottom: 21px;
+}
+.list_img{
+    float: left;
+    width: 280px;
+    height: 160px;
+    background-color: red;
+    margin-right: 18px;
+}
+.list_img img{
+    width: 280px;
+    height: 160px;
+}
+.list_mes{
+    float: left;
+    width: 441px;
+    height: 160px;
+}
+.mes_title{
+    color: #000;
+    font-size: 19px;
+}
+.mes_content1{
+    height: 84px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    color: #808080;
+}
+.mes_keyword{
+    width: 290px;
+    float: left;
+    height: 23px;
+}
+.mes_keyword span{
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    color: #f9f9f9;
+    background-color: #CCCCCC;
+    font-size: 14px;
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.mes_time{
+    color: #808080;
+    font-size: 14px;
+    height: 23px;
+    line-height: 23px;
+}
+
+/*内容右部分-热点*/
+
+/*--头条--*/
+.topline_title{
+    font-family: Microsoft YaHei;
+    line-height: 38px;
+    padding-left: 18px;
+    color: #333333;
+    font-size: 18px;
+    border: 1px solid #CCCCCC;
+}
+.topline_group{
+    height: 87px;
+    padding: 9px 10px 4px 8px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+}
+.group_title{
+    font-size: 18px;
+    color: #333333;
+    line-height: 25px;
+}
+.group_content{
+    font-size: 16px;
+    color: #333333;
+    line-height: 25px;
+}
+.group_time{
+    font-size: 14px;
+    color: #999999;
+    line-height: 22px;
+}
+/*--热门文章--*/
+.hot{
+    margin-top: 20px;
+}
+.hot_title{
+    line-height: 38px;
+    padding-left: 18px;
+    color: #333333;
+    font-size: 18px;
+    border: 1px solid #CCCCCC;
+}
+.hot_list{
+    padding: 0;
+}
+.hot_list li{
+    display: block;
+    width: 240px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    padding-left: 8px;
+    padding-right: 25px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333333;
+}
+/*人物专题*/
+.person{
+    margin-top: 20px;
+}
+.person_title{
+    line-height: 38px;
+    padding-left: 18px;
+    color: #333333;
+    font-size: 18px;
+    border: 1px solid #CCCCCC;
+}
+.person_list{
+    padding: 20px 19px 8px 19px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+}
+.person_list img{
+    width: 100%;
+    height: 150px;
+}
+.person_write{
+    margin-top: 7px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333333;
+}
+
+/*content页面的css*/
+.zc_middle2{
+    width: 1040px;
+    margin-right: 0;
+}
+.zc_news2{
+    padding: 0 0px 47px 18px;
+}
+.list_mes2{
+    width: 712px;
+    float: left;
+    height: 160px;
+}

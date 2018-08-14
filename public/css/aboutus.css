@@ -1,0 +1,132 @@
+/*内容左部分-导航*/
+.ab_con{
+    margin-top: 19px;
+}
+.ab_left{
+    width: 120px;
+    float: left;
+    background-color: #fff;
+}
+.ab_nav{
+    width: 100%;
+    text-align: center;
+}
+.ab_nav a{
+    text-decoration: none;
+}
+.ab_nav .nav_title{
+    width: 100%;
+    border-bottom: 1px solid #4E88C3;
+    background-color: #6AB0F8;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #f9f9f9;
+    font-size: 70px;
+    line-height: 70px;
+    cursor: default;
+}
+.ab_nav .navlist{
+    width: 100%;
+    height: 37px;
+    font-size: 17px;
+    color: #f9f9f9;
+    line-height: 35px;
+    background-color: #6AB0F8;
+    border-top: 1px solid #B5D9FC;
+    border-bottom: 1px solid #4E88C3;
+    cursor: pointer;
+}
+.ab_left .ab_nav .act{
+    background-color: #3066A1;
+}
+.ab_nav .hov{
+    background-color: #5490CA;
+}
+.ab_nav .navcolor{
+    border-top: 1px solid #B5D9FC;
+    width: 100%;
+    height: 570px;
+    background-image:linear-gradient(to bottom, #6AB0F8,#fff);
+}
+/*内容右部分*/
+.ab_right{
+    width: 1025px;
+    float: left;
+    margin-left: 25px;
+}
+.ab_group{
+    width: 1025px;
+    margin-bottom: 40px;
+}
+.ab_title span{
+    font-size: 30px;
+    color: #333;
+    display: inline-block;
+    height: 43px;
+    border-bottom: 3px solid #0077C1;
+}
+/*公司理念*/
+.linian_content{
+    width: 1025px;
+    margin-top: 20px;
+    padding-right: 5px;
+}
+.linian_content_top{
+    margin-bottom: 20px;
+}
+.linian_content_top img{
+    float: left;
+    width: 320px;
+    height: 250px;
+    outline-width:0px;
+    margin-right: 20px;
+}
+.linian_content_bottom img{
+    width: 490px;
+    height: 250px;
+    margin-right: 20px;
+    float: left;
+}
+/*大事记*/
+.shiji_content{
+    width: 1025px;
+    margin-top: 20px;
+    padding-right: 25px;
+}
+.shiji_content img{
+    width: 1000px;
+    height: 950px;
+}
+/*企业风采*/
+.fc_content{
+    margin-top: 20px;
+    width: 1000px;
+}
+.fc_content img{
+    width: 235px;
+    height: 150px;
+}
+.fc_content .swiper-container{
+    width: 100%;
+    height: 150px;
+    margin-left: 0;
+}
+.fc_content .swiper-slide{
+    position: relative;
+}
+.fc_content .swiper-button-prev{
+    background-image: url("../images/aboutus/arrow_left.png");
+}
+.fc_content .swiper-button-next{
+    background-image: url("../images/aboutus/arrow_right.png");
+}
+.fc_content .anbox{
+    width: 235px;
+    height: 150px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+}
+.fc_content .swiper-slide:hover .anbox{
+    display: none;
+}

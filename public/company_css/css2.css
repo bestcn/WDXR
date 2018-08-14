@@ -1,0 +1,323 @@
+/*登陆界面*/
+.login_logo img{
+	width: 62%;
+	max-width: 230px;
+	margin-top: 55px;
+	margin-bottom: 45px;
+}
+@media (min-width: 768px){
+	.login_logo img{
+		margin-top: 120px;
+		margin-bottom: 105px;
+	}
+
+}
+
+/*背景*/
+@media (min-width: 768px){
+	.gray-bg{
+		background: url("/img/beijing2.png") repeat-x ;
+	}
+}
+/*背景-end*/
+
+.form-control{
+	width: 80%;
+	border: 1px solid rgba(153, 153, 153, 0.73);
+}
+.back01{
+	padding-right: 40px;
+}
+.fa-unlock-alt,
+.fa-user-circle-o{
+	margin-top: 4px;
+}
+.lf{
+	float: left;
+}
+.querylist{
+	margin-bottom: 10px;
+	overflow:hidden
+}
+.loglf{
+	width: 35%;
+}
+.logri{
+	width: 65%;
+}
+.lh24{
+	line-height: 24px;
+}
+.lh26{
+	line-height: 26px;
+}
+.box_h{
+	padding-top: 44px;
+	background-color: #fff;
+}
+.box_h2{
+	padding-top: 54px;
+	padding-bottom: 10px;
+}
+.fkwindow{
+	width: 100%;
+}
+.v_mid{
+	vertical-align: middle;
+}
+.btn_p{
+	padding:1px 10px;
+}
+.mbpb{
+	padding-bottom: 20px;
+}
+.msg_box{
+	margin-top: 5px;
+}
+.ad{
+	width: 40%;
+	margin: auto;
+}
+.sel1{
+	margin-bottom: 10px;
+}
+.del-line{
+	border-top: none;
+}
+.w20{
+	width: 20%;
+	margin-top: -4px;
+	max-width: 100px;
+	padding: 3px 5px;
+}
+.w50{
+	width: 50%;
+}
+.w62{
+	width: 62%;
+}
+.pa15{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.m-t2{
+	margin-top: 70px;
+	text-align: center;
+}
+/*顶部导航栏*/
+.nav_bar{
+	top: 0;
+	box-shadow: 0 1px 6px #ccc;
+	position: fixed;
+	z-index: 9999;
+	right: 0;
+	left: 0;
+	height: 44px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom: 0;
+	background-color: #278fd3;
+}
+.icon_back{
+	margin-right: -10px;
+	margin-left: -10px;
+	padding:14px 16px;
+	position: relative;
+	z-index: 99999;
+	line-height: 1;
+	display: inline-block;
+	font-size: 16px;
+	color: #f7f7f7;
+}
+.nav_title{
+	right: 55px;
+	left: 55px;
+	display: inline-block;
+	overflow: hidden;
+	width: auto;
+	margin: 0;
+	text-overflow: ellipsis;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 44px;
+	position: absolute;
+	padding: 0;
+	text-align: center;
+	white-space: nowrap;
+	color: #f7f7f7;
+}
+div.logout{
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #f7f7f7;
+	font-size: 16px;
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	cursor: pointer;
+}
+/*pc端顶部导航栏*/
+.nav_bar2{
+	height: 130px;
+	width: 1170px;
+	margin: 0 auto;
+}
+.nav_logo img{
+	float: left;
+}
+.nav_logo div{
+	float: right;
+	color: #fff;
+	margin-top: 35px;
+	margin-right: 30px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+.nav_logo span{
+	cursor: pointer;
+}
+.nav_list{
+	float: left;
+	padding-left: 130px;
+	margin-top: -6px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.nav_list li{
+	float: left;
+	list-style: none;
+}
+.nav_list li a{
+	color: #f4f4f4;
+	width: 100px;
+	text-align: center;
+	font: 600 15px "微软雅黑";
+	display: block;
+}
+/*大屏情况下*/
+@media (min-width: 768px){
+	.nav_bar {
+		display: none;
+	}
+	.form-horizontal{
+		margin-top: 40px;
+	}
+	.form-group{
+		margin-bottom: 30px;
+	}
+	.text1{
+		text-align: right;
+	}
+	.text2{
+		text-align: center;
+	}
+	.querylist{
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	.bohui{
+		max-width: 160px;
+	}
+	.box_h2{
+		box-shadow: 0 0 5px #000000;
+		padding-bottom: 15px;
+		background-color: #f3f3f4;
+		border-radius: 5px;
+	}
+	.chaxun1{
+		position: relative;
+	}
+	.tips{
+		bottom: 20% !important;
+	}
+	.tips1{
+		bottom: 7% !important;
+	}
+	.login_logo img{
+		margin-top: 120px;
+		margin-bottom: 105px;
+	}
+	.box_h2{
+		padding-top: 20px;
+	}
+}
+/*小屏情况下*/
+@media (max-width: 768px){
+	.nav_bar2 {
+		display: none;
+	}
+
+}
+/*顶部导航栏 end*/
+
+/*底部版权*/
+#patent-footer{
+	text-align:left;
+	padding-top: 5px;
+}
+#patent-footer p{
+	margin-top:10px;
+	padding-right:80px;
+	color:#e0d9d9;
+	font-size:13px;
+}
+.foot1{
+	background-color: #0065C5;
+	height: 113px;
+	width: 100%;
+	padding-top: 20px;
+	margin-top: 2px;
+	box-shadow: -2px 0 10px #000000;
+}
+.bo{
+	position: absolute;
+	bottom: 0;
+}
+@media (max-width: 768px){
+	.foot1 {
+		display: none;
+	}
+}
+
+/*弹框提示样式*/
+.tips {
+	position: fixed;
+	bottom: 7%;
+	width: 60%;
+	height: 35px;
+	text-align: center;
+	z-index: 100;
+}
+.tips p {
+	min-width: 190px;
+	max-width: 400px;
+	line-height: 35px;
+	margin: 0 auto;
+	color: #FFF;
+	opacity: 0.8;
+	border-radius: 12px;
+	display: none;
+	background-color: #5a5152;
+}
+
+/*提交页面*/
+.tj_img{
+	display: inline-block;
+	margin: 20px auto;
+	width: 100px;
+	height: 100px;
+}
+.tj_img img{
+	width: 100px;
+	height: 100px;
+}
+.tj_result{
+	color: #000;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.tj_error{
+	color: #ff2521;
+}

@@ -1,0 +1,59 @@
+.boder01{
+    border: 1px dashed #736868;
+    margin-bottom: 15px;
+    padding: 12px;
+}
+.boder1{
+    border-bottom:1px dashed #736868;
+    width: 100%;
+    display: inline-block;
+    min-width: 320px;
+    margin-bottom: 15px;
+}
+.boder2{
+    width: 100%;
+    display: block;
+    padding-bottom: 12px;
+}
+.boder1 img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.span0{
+    width: 30%;
+    display: inline-block;
+    line-height: 50px;
+    min-width: 400px;
+    font-size: 15px;
+}
+.span01{
+    width: 100%;
+}
+.span1{
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    display: inline-block;
+}
+.lightBoxGallery {
+    text-align: left;
+}
+
+
+.xuanzhuan{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.fangda{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+.suoxiao{
+    position: absolute;
+    top: 20px;
+    right: 150px;
+}
